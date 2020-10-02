@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+/*
+   BARVY
+   czechitas  #b92e81
+   pozadi     #bdc3c7
+   tmava      #31363b
+   delitka    #3f464d
+   portfolio  #e74c3c
+   facebook   #3b5998
+   twitter    #1da1f2
+  */
+
+body {
+  background-color: #bdc3c7;
+  width: 250px;
+}
+
+.hlavicka {
+  width: 250px;
+}
+
+.foto {
+  width: 250px;
+}
+
+.logo {
+  background-color: #b92e81;
+  border-radius: 50%;
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+
+.obsah {
+  background-color: #31363b;
+}
+
+h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: block;
+  margin-top: -1rem;
+  padding: 1rem;
+}
+
+p {
+  color: #bdc3c7;
+  text-align: block;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 1rem;
+}
+
+.menu {
+  border-color: white;
+  background-color: #31363b;
+  margin-top: -1rem;
+}
+
+.menu li {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  box-shadow: 0.1px 0.1px;
+}
+
+.menu a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.portfolio a:hover {
+  background-color: #e74c3c;
+}
+
+.facebook a:hover {
+  background-color: #3b5998;
+}
+
+.twitter a:hover {
+  background-color: #1da1f2;
+}
+
+.portfolio {
+  position: relative;
+}
+
+.facebook {
+  position: relative;
+  right: 20px;
+}
+
+.twitter {
+  position: arelative;
+  left: 170px;
+  top: 650px;
+}
